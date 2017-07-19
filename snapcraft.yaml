@@ -50,6 +50,7 @@ parts:
             - piexif>=1.0.3
             - notebook>=4.0.0
             - ipykernel>=4.0.0
+            - commonmark
         build-packages: [libjpeg-dev]
         install: |
             find $SNAPCRAFT_PART_INSTALL -name '*.a'  -print0 | xargs -0r rm
