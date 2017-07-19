@@ -1,5 +1,5 @@
 name: nikola
-version: 7.8.9-0dp01
+version: 7.8.9-0dp02
 summary: A static website generator
 description: A static website generator
 confinement: strict
@@ -19,6 +19,7 @@ parts:
         stage-packages:
             - locales
             - libc-bin
+            - rsync
         plugin: python
         python-packages:
             - Markdown>=2.4.0
