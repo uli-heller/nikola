@@ -56,6 +56,7 @@ parts:
             - commonmark
         build-packages: [libjpeg-dev]
         install: |
+            # echo 'LANG="de_DE.UTF-8"' >$SNAPCRAFT_PART_INSTALL/etc/default/locale
             find $SNAPCRAFT_PART_INSTALL -name '*.a'  -print0 | xargs -0r rm
             find $SNAPCRAFT_PART_INSTALL -name 'terminado' -type d -print0 | xargs -0r rm -rf
             find $SNAPCRAFT_PART_INSTALL -name 'tornado' -type d -print0 | xargs -0r rm -rf
