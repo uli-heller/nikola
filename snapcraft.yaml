@@ -1,8 +1,8 @@
 name: nikola
-version: 7.8.9-0dp05
+version: 7.8.9-0dp04
 summary: A static website generator
 description: A static website generator
-confinement: classic
+confinement: strict
 grade: stable
 
 apps:
