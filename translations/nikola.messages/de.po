@@ -101,6 +101,12 @@ msgstr "Ältere Einträge"
 msgid "Archive"
 msgstr "Archiv"
 
+msgid "Archives"
+msgstr "Archiv"
+
+msgid "Recent Posts"
+msgstr "Neue Einträge"
+
 msgid "Publication date"
 msgstr "Veröffentlichungsdatum"
 
