@@ -1,5 +1,5 @@
 name: nikola
-version: 7.8.9-0dp07
+version: 7.8.9-0dp08
 summary: A static website generator
 description: A static website generator
 confinement: strict

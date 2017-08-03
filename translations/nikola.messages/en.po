@@ -89,6 +89,12 @@ msgstr "Older posts"
 msgid "Archive"
 msgstr "Archive"
 
+msgid "Archives"
+msgstr "Archives"
+
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
 msgid "Publication date"
 msgstr "Publication date"
 
