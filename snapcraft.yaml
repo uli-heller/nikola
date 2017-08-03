@@ -1,5 +1,5 @@
 name: nikola
-version: 7.8.9-0dp08
+version: 7.8.9-0dp09
 summary: A static website generator
 description: A static website generator
 confinement: strict
@@ -54,6 +54,7 @@ parts:
             - notebook>=4.0.0
             - ipykernel>=4.0.0
             - commonmark
+            - filetreesubs
         build-packages: [libjpeg-dev]
         install: |
             # echo 'LANG="de_DE.UTF-8"' >$SNAPCRAFT_PART_INSTALL/etc/default/locale
